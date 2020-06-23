@@ -1,3 +1,3 @@
 # Exodus-Wallet-Updater-Mac
-Exodus wallet installer for mac
-`Work In Progress` currently not working
+An updater for the Exodus wallet OSX (Tested on 10.14.6)
+Tested and working
