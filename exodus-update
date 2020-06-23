@@ -147,7 +147,7 @@ fi
 # Check if exodus is installed
 if [ -e /usr/local/bin/exodus ]
    then Version=$(/usr/local/bin/exodus --version)
-echo -e "Your current wallet version is ""{Version}"" looking for the latest version"
+echo -e "Your current wallet version is "${Version}" looking for the latest version"
    else echo ""
        echo -e "Exodus is NOT installed (or not in the /usr/bin/ dir) The script will now download the latest version"
 fi
